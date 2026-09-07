@@ -3,13 +3,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Footer from './components/Footer';
-// import Services from './components/Services';
-// import Portfolio from './components/ Portfolio';
-
 import './BusinessWebsite.css';
 
 const BusinessWebsite = () => {
-  // Theme state define ki hai (default 'light')
   const [theme, setTheme] = useState('light');
   const [menuOpen, setMenuOpen] = useState(false);
 
